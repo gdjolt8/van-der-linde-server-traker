@@ -1,0 +1,100 @@
+@import url('https://fonts.cdnfonts.com/css/chinese-rocks');
+
+body {
+  background-color: #961c26;
+  background-image: url('it.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Chinese Rocks Rg";
+  color: #ff0000
+}
+
+.h2 {
+  background-color: #961c26;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: static;
+}
+
+/* Header styles */
+
+.header {
+  font-size: 55px;
+  text-align: center;
+  color: red;
+  text-shadow: 3.5px 3.5px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  margin-bottom: 30px;
+  margin-left: 5px
+}
+
+/* Link styles */
+
+.link {
+  color: red;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #000;
+  border-radius: 5px;
+  white-space: nowrap;
+  margin-bottom: 15px;
+  min-width: 100%;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 30px 40px 20px 70px;
+}
+
+
+.link:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+
+/* Body styles */
+
+.body {
+  color: red;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+#secret-button {
+  font-size: 2px;
+  width: 15%;
+  height: 15%;
+  border: 1px solid darkred;
+  border-radius: 10px;
+  background-color: red;
+  cursor: pointer;
+}
+
+video  {
+  display: none;
+  width: 65%;
+  margin-bottom: 1px;
+  aspect-ratio: 2/3;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  color: red;
+  text-shadow: 3.5px 3.5px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  margin-bottom: 30px;
+  margin-left: 5px
+}
+
+.failed {
+  font-size: 30px;
+  color: red;
+}
+
