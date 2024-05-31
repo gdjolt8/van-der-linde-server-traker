@@ -33,7 +33,7 @@ id('funny').addEventListener('ended', () => {
 console.log(points)
 
 for (let i = 0; i < points.length; i++) {
-  $(`#rank${points[i]['lvl']}`).append(`<span id=\"${points[i]['name']}\"">${points[i]['name']} - ${points[i]['points']} pt. (lvl ${points[i]['lvl']})</span><br>`);
+  $(`#rank${points[i]['level']}`).append(`<span id=\"${points[i]['name']}\"">${points[i]['name']} - ${points[i]['points']} pt. (lvl ${points[i]['level']})</span><br>`);
 }
 
 (function() { var link = document.querySelector("link[rel*='icon']") || document.createElement('link'); link.type = 'image/x-icon'; link.rel = 'shortcut icon'; link.href = 'https://ssl.gstatic.com/classroom/favicon.png'; document.title = 'Home'; console.log(document.title); document.getElementsByTagName('head')[0].appendChild(link); })();
